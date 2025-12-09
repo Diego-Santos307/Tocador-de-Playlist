@@ -73,6 +73,8 @@ button{
 
 #cover{
     width: 450px;
+    
+    border: 50%;
 }
 
 #Playlist-tittle{
