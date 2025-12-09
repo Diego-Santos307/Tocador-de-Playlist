@@ -4,8 +4,10 @@ const song = document.getElementById('audio'); // Const dos audios do álbum.
 const cover = document.getElementById('cover'); // Const das img do álbum.
 const play = document.getElementById('play'); // Const do play.
 
+// criado uma variavel auxiliar, que irá dizer se está tocando ou não.
 let isPlaying = true;
 
+// criado uma funcão de repetição
 function playSong(){
     play.querySelector('.bi').classList.remove('bi-play-circle-fill');
     play.querySelector('.bi').classList.add('bi-pause-circle-fill');
@@ -20,6 +22,7 @@ function pauseSong(){
     isPlaying = true;
 }
 
+// criado uma condicional
 function playPauseDecider(){
     if(isPlaying === true){
         playSong();
@@ -29,4 +32,5 @@ function playPauseDecider(){
     }
 }
 
+// criado um Even, apatir do click
 play.addEventListener('click', playPauseDecider);
