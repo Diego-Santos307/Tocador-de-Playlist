@@ -4,8 +4,12 @@ const song = document.getElementById('audio'); // Const dos audios do álbum.
 const cover = document.getElementById('cover'); // Const das img do álbum.
 const play = document.getElementById('play'); // Const do play.
 
-// criado uma variavel auxiliar, que irá dizer se está tocando ou não.
+// criada varavel para infomrar o começo se está tocando ou não
 let isPlaying = true;
+
+// criada uma array para agrupar varias informações da musica
+const playlist = [AEncruzilhada, AmorDividido, BabyDoll, FaçoChover, FilmeseHistórias, LoucaPorTi, Magica, Paulinha, SemExplicação, TemMaisAlguém, VocêNãoValeNada];
+let index = 0;
 
 // criadas variaveis para atulização constante dos nomes das musicas, bandas, img e som.
 const AEncruzilhada = {
@@ -102,11 +106,14 @@ function playPauseDecider(){
 
 // Mais uma função para adicionar a img, song, nome da banda e musica, conforme for passando.
 function initializeSong(){
+    song.src = `Song/${playlist[index].File}.mp3`;
+    cover.src = `Img/${playlist[index].File}.jpg`;
+    songName.innerText = playlist[index].songName;
+    bandName.innerText = playlist[index].artist;
+} 
 
-}
-
-
-// criado um Even, apatir do click
+// criado uma initializeSong, para iniciar as propriedades da musica
 initializeSong();
 
+// criado uma chamada para quando clicar iniciar a musica
 play.addEventListener('click', playPauseDecider);
