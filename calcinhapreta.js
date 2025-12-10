@@ -15,67 +15,67 @@ let index = 0;
 const AEncruzilhada = {
     songName: 'A Encruzilhada',
     artist: 'Calcinha Preta',
-    File: 'A Encruzilhada'
+    File: 'A Encruzilhada',
 }
 
 const AmorDividido = {
     songName: 'Amor Dividido',
     artistist: 'Calcinha Preta',
-    File: 'Amor Dividido'
+    File: 'Amor Dividido',
 }
 
 const BabyDoll = {
     songName: 'Baby Doll',
     artist: 'Calcinha Preta',
-    File: 'Baby Doll'
+    File: 'Baby Doll',
 }
 
 const FaçoChover = {
     songName: 'Faço Chover',
     artist: 'Calcinha Preta',
-    File: 'Faço Chover'
+    File: 'Faço Chover',
 }
 
 const FilmeseHistórias = {
     songName: 'Filmes e Histórias',
     artist: 'Calcinha Preta',
-    File: 'Filmes e Histórias'
+    File: 'Filmes e Histórias',
 }
 
 const LoucaPorTi = {
     songName: 'Louca Por Ti',
     artist: 'Calcinha Preta',
-    File: 'Louca Por Ti'
+    File: 'Louca Por Ti',
 }
 
 const Magica = {
     songName: 'Magica',
     artist: 'Calcinha Preta',
-    File: 'Magica'
+    File: 'Magica',
 }
 
 const Paulinha = {
     songName: 'Paulinha',
     artist: 'Calcinha Preta',
-    File: 'Paulinha'
+    File: 'Paulinha',
 }
 
 const SemExplicação = {
     songName: 'Sem Explicação',
     artist: 'Calcinha Preta',
-    File: 'Sem Explicação'
+    File: 'Sem Explicação',
 }
 
 const TemMaisAlguém = {
     songName: 'Tem Mais Alguém',
     artist: 'Calcinha Preta',
-    File: 'Tem Mais Alguém'
+    File: 'Tem Mais Alguém',
 }
 
 const VocêNãoValeNada = {
     songName: 'Você Não Vale Nada',
     artist: 'Calcinha Preta',
-    File: 'Você Não Vale Nada'
+    File: 'Você Não Vale Nada',
 }
 
 
